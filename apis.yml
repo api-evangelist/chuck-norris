@@ -40,6 +40,8 @@ apis:
         url: https://github.com/chucknorris-io
       - type: StatusPage
         url: https://status.chucknorris.io
+      - type: OpenAPI
+        url: openapi/openapi.json
 common:
   - type: Website
     url: https://api.chucknorris.io
