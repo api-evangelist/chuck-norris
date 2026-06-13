@@ -1,0 +1,68 @@
+aid: chuck-norris
+name: Chuck Norris API
+description: >
+  Free REST API providing random Chuck Norris jokes, categories, and the
+  ability to search the joke database with no authentication required. The
+  service is hosted on AWS and supported by Jugendstil.io sponsorship,
+  making it permanently free for developers. Responses are returned as JSON
+  and include a joke identifier, URL, icon, and the joke text. Integrations
+  are available for Slack and Facebook Messenger.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/chuck-norris/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+type: Index
+tags:
+  - Jokes
+  - Humor
+  - Entertainment
+  - Chuck Norris
+  - Free
+apis:
+  - aid: chuck-norris:chuck-norris-api
+    name: Chuck Norris API
+    description: >
+      Retrieve random Chuck Norris jokes, list available joke categories, and
+      perform free text searches across the curated joke database. No API key
+      or authentication is required.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://api.chucknorris.io
+    baseURL: https://api.chucknorris.io
+    tags:
+      - Jokes
+      - Humor
+      - Entertainment
+    properties:
+      - type: Documentation
+        url: https://api.chucknorris.io
+      - type: GitHubOrg
+        url: https://github.com/chucknorris-io
+      - type: StatusPage
+        url: https://status.chucknorris.io
+common:
+  - type: Website
+    url: https://api.chucknorris.io
+  - type: Documentation
+    url: https://api.chucknorris.io
+  - type: GitHubOrg
+    url: https://github.com/chucknorris-io
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/chucknorris-io
+  - type: Blog
+    url: https://api.chucknorris.io
+  - type: Pricing
+    url: https://api.chucknorris.io
+  - type: StatusPage
+    url: https://status.chucknorris.io
+  - type: X
+    url: https://twitter.com/MatChilling
+  - type: Plans
+    url: plans/chuck-norris-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/chuck-norris-rate-limits.yml
+  - type: FinOps
+    url: finops/chuck-norris-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
