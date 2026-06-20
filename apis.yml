@@ -7,7 +7,7 @@ description: >
   making it permanently free for developers. Responses are returned as JSON
   and include a joke identifier, URL, icon, and the joke text. Integrations
   are available for Slack and Facebook Messenger.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/chuck-norris/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -26,7 +26,7 @@ apis:
       Retrieve random Chuck Norris jokes, list available joke categories, and
       perform free text searches across the curated joke database. No API key
       or authentication is required.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://api.chucknorris.io
     baseURL: https://api.chucknorris.io
     tags:
