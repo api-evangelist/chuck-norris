@@ -7,7 +7,19 @@ description: >
   making it permanently free for developers. Responses are returned as JSON
   and include a joke identifier, URL, icon, and the joke text. Integrations
   are available for Slack and Facebook Messenger.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: free
+  onboarding: open
+  trial: false
+  try_now: true
+  public: true
+  label: Free · Open access
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chuck-norris.png
 url: https://raw.githubusercontent.com/api-evangelist/chuck-norris/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -20,28 +32,22 @@ tags:
   - Chuck Norris
   - Free
 apis:
-  - aid: chuck-norris:chuck-norris-api
-    name: Chuck Norris API
-    description: >
-      Retrieve random Chuck Norris jokes, list available joke categories, and
-      perform free text searches across the curated joke database. No API key
-      or authentication is required.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://api.chucknorris.io
-    baseURL: https://api.chucknorris.io
-    tags:
-      - Jokes
-      - Humor
-      - Entertainment
-    properties:
-      - type: Documentation
-        url: https://api.chucknorris.io
-      - type: GitHubOrg
-        url: https://github.com/chucknorris-io
-      - type: StatusPage
-        url: https://status.chucknorris.io
-      - type: OpenAPI
-        url: openapi/openapi.json
+- aid: chuck-norris:chuck-norris-jokes-api
+  name: Chuck Norris API jokes API
+  description: Chuck Norris joke operations
+  humanURL: https://api.chucknorris.io
+  baseURL: https://api.chucknorris.io
+  tags:
+  - jokes
+  properties:
+  - type: OpenAPI
+    url: openapi/chuck-norris-jokes-api-openapi.yml
+  - type: Documentation
+    url: https://api.chucknorris.io
+  - type: GitHubOrg
+    url: https://github.com/chucknorris-io
+  - type: StatusPage
+    url: https://status.chucknorris.io
 common:
   - type: AgenticAccess
     url: agentic-access/chuck-norris-agentic-access.yml
