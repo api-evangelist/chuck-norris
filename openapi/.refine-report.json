@@ -1,0 +1,14 @@
+{
+  "provider": "chuck-norris",
+  "sources": [
+    "chuck-norris-jokes-api-openapi.yml"
+  ],
+  "outputs": [
+    "chuck-norris-jokes-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
